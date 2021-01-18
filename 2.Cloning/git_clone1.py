@@ -1,11 +1,11 @@
-# First in GIT is to create an account in any GIT based software like Github / Gitlab etc. 
+# First step is to create an account in any GIT based software like Github / Gitlab etc. 
 
 # My personal favorite is GITHUB because of its user-friendliness and because of its industry acceptance. 
 
 print("Lets start!!!")
 print("\n")
 
-# Go to repository web page. 
+# Go to repository's web page. 
 
 # Check for cloning options. 
 
@@ -15,12 +15,12 @@ print("\n")
 #       SSH 
 
 # HTTPS : 
-# Copy Https clone link by clicking on copy.
+# Copy Https clone link by clicking on the copy.
 # Here we can clone easily by the below command at local CMD - 
 
 # git clone (copy link)
 
-# eg - git clone https://github.com/rythmstories/git-practice.git
+# Eg - git clone https://github.com/rythmstories/git-practice.git
 
 print("Https Git clone ")
 print("\n")
@@ -30,12 +30,12 @@ print("git clone https://github.com/rythmstories/git-practice.git")
 print("\n")
 
 # SSH :
-# Copy HHS clone link by clicking on copy. 
-# Here we have to go through below command on local cmd. 
+# Copy SSH clone link by clicking on the copy. 
+# Here we have to go through the below command on local cmd. 
 
 # git clone (copy link)
 
-# eg - git clone https://github.com/rythmstories/git-practice.git
+# Eg - git clone https://github.com/rythmstories/git-practice.git
 
 print("SSH Git clone ")
 print("\n")
@@ -45,5 +45,7 @@ print("git clone https://github.com/rythmstories/git-practice.git")
 
 
 
-# It is preferable to go with 
+# It is preferable to go with SSH Request 
+
+# Now enter into the repository with 'cd' command & now we are ready for any GIT operation.
 
