@@ -1,15 +1,15 @@
-# In previous example we have seen how revert changes if we havnt made add and commit request. 
+# In the previous example we have seen how to revert changes if we haven't made add and commit request. 
 
 # In this example we will see how to revert changes if we have committed the changes. 
 
-# Here we will use revert command for our case. 
+# Here we will use the revert command for our case. 
 
 # Revert can be used for reverting multiple changes as well as for single change.
 
 
 # Step a: 
 #       First we need to find commit id to revert specific commit as commit id will uniquely identify the commit we want to revert
-#       To find commit id we need to use command given below - 
+#       To find commit id we need to use the command given below - 
             # git log
 #       Now we will copy specific commit id. 
 
@@ -40,19 +40,19 @@
 
                 # :q
 
-#       Here we will copy commit id for the specific commit we want to undo eg I want undo 'GIT COMPLETE' commit - 
+#       Here we will copy commit id for the specific commit we want to undo eg I want to undo the 'GIT COMPLETE' commit - 
                 #     add commit git complete
 
                 # commit 3960f3b56458187e3ad61983f571f587cd100e0f
 
                 # commit id = 3960f3b56458187e3ad61983f571f587cd100e0f
 
-#       Now we will enter this command to reach at 'GIT COMPLETE' commit -
+#       Now we will enter this command to reach the 'GIT COMPLETE' commit -
 
                 # git revert 'commit id'
                 # git revert 3960f3b56458187e3ad61983f571f587cd100e0f
 
-#       Now the initial code just before 'GIT COMPLETE' will be restore
+#       Now the initial code just before 'GIT COMPLETE' will be restored
 
 #       I hope this will help
 #
