@@ -12,6 +12,9 @@
 # git add --all         (To add all the changes in one step)
 
 
+# HELP - this command is made to move changes from working directory to staging directory. 
+
+
 # Step c: After this, we need to commit the code by the following command at cmd - 
 
 # git commit -m ""      (Here in inverted comma we need to write a short message about commit)
