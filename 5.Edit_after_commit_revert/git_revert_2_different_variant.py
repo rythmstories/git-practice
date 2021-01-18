@@ -29,7 +29,7 @@ print("\n")
 
 # Here is the command - 
 
-# git revert -n 'git-id'
+# git revert -n 'commit-id'
 
 print("GIT revert without committed code")
 print("\n")
